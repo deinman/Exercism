@@ -1,31 +1,18 @@
 using System;
 using System.Collections.Generic;
+using System.Linq;
 
 public class NucleotideCount
 {
-    private readonly Dictionary<char, int> _counts;
-
-    public NucleotideCount(string sequence)
+    public static IDictionary<char, int> Count(string sequence) 
     {
-        _counts = new Dictionary<char, int>
-        {
-            {'A', 0},
-            {'C', 0},
-            {'G', 0},
-            {'T', 0}
-        };
+        string validNucleotide = "ACGT";
 
-        foreach (var c in sequence)
+        if (!sequence.All(validNucleotide.Contains))
         {
-            if (!_counts.ContainsKey(c)) throw new InvalidNucleotideException();
-
-            _counts[c]++;
+            throw new ArgumentException();
         }
+
+        return (sequence + validNucleotide).GroupBy(x => x).ToDictionary(g => g.Key, g => g.Count() - 1);
     }
-
-    public IDictionary<char, int> NucleotideCounts => _counts;
-}
-
-public class InvalidNucleotideException : Exception
-{
 }
