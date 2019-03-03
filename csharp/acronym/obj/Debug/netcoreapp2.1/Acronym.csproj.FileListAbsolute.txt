@@ -1,0 +1,14 @@
+c:\Users\artim\Exercism\csharp\acronym\bin\Debug\netcoreapp2.1\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+c:\Users\artim\Exercism\csharp\acronym\bin\Debug\netcoreapp2.1\xunit.runner.reporters.netcoreapp10.dll
+c:\Users\artim\Exercism\csharp\acronym\bin\Debug\netcoreapp2.1\xunit.runner.utility.netcoreapp10.dll
+c:\Users\artim\Exercism\csharp\acronym\bin\Debug\netcoreapp2.1\Acronym.deps.json
+c:\Users\artim\Exercism\csharp\acronym\bin\Debug\netcoreapp2.1\Acronym.runtimeconfig.json
+c:\Users\artim\Exercism\csharp\acronym\bin\Debug\netcoreapp2.1\Acronym.runtimeconfig.dev.json
+c:\Users\artim\Exercism\csharp\acronym\bin\Debug\netcoreapp2.1\Acronym.dll
+c:\Users\artim\Exercism\csharp\acronym\bin\Debug\netcoreapp2.1\Acronym.pdb
+c:\Users\artim\Exercism\csharp\acronym\obj\Debug\netcoreapp2.1\Acronym.csprojAssemblyReference.cache
+c:\Users\artim\Exercism\csharp\acronym\obj\Debug\netcoreapp2.1\Acronym.csproj.CoreCompileInputs.cache
+c:\Users\artim\Exercism\csharp\acronym\obj\Debug\netcoreapp2.1\Acronym.AssemblyInfoInputs.cache
+c:\Users\artim\Exercism\csharp\acronym\obj\Debug\netcoreapp2.1\Acronym.AssemblyInfo.cs
+c:\Users\artim\Exercism\csharp\acronym\obj\Debug\netcoreapp2.1\Acronym.dll
+c:\Users\artim\Exercism\csharp\acronym\obj\Debug\netcoreapp2.1\Acronym.pdb
