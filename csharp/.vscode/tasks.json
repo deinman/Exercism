@@ -5,11 +5,12 @@
             "label": "build",
             "command": "dotnet",
             "type": "process",
-            "args": [
-                "build",
-                "${workspaceFolder}/gigasecond/Gigasecond.csproj"
-            ],
-            "problemMatcher": "$msCompile"
+            "args": [],
+            "problemMatcher": "$msCompile",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
         }
     ]
 }
