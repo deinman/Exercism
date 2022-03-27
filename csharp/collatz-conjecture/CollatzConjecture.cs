@@ -6,7 +6,7 @@ public static class CollatzConjecture
     {
         if (number <= 0)
         {
-            throw new ArgumentException();
+            throw new ArgumentOutOfRangeException(nameof(number));
         }
 
         var counter = 0;
