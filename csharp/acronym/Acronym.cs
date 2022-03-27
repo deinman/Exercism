@@ -13,7 +13,7 @@ public static class Acronym
 
         foreach (var word in words)
         {
-            sb.Append(word.Substring(0,1));
+            sb.Append(word.AsSpan(0,1));
         }
 
         return sb.ToString().ToUpper();
