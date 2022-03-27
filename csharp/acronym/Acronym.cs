@@ -1,13 +1,15 @@
 ﻿using System;
 using System.Text;
-using System.Text.RegularExpressions;
 
 public static class Acronym
 {
     public static string Abbreviate(string phrase)
     {
         var sb = new StringBuilder();
-        var words = Regex.Split(phrase, @"[^\p{L}]*\p{Z}[^\p{L}]*");
+        var words = phrase.ToUpper()
+            .Replace('-', ' ')
+            .Replace('_', ' ')
+            .Split(" ", StringSplitOptions.RemoveEmptyEntries);
 
         foreach (var word in words)
         {
